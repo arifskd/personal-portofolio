@@ -1,0 +1,135 @@
+body {
+	background-color: blue;
+}	
+div {
+	border-radius: 20px;
+}
+#divatas {
+	display: block;
+	background-color: white;
+	font-size: 36px;
+}
+#divkiri {
+	display: inline-block;
+	width: 40%;
+	height: 100vh;
+	background-color: grey;
+	float: left;
+	position: relative;
+}
+#divkanan {
+	display: inline-block;
+	width: 60%;
+	height: 100vh;
+	background-color: green;
+	clear: both;
+	position: relative;
+	overflow-y: auto;
+}
+#contkiri {
+	display: block;
+	background-color: white;
+	height: 80%;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 100px;
+}
+#contkanan {
+	position: relative;
+	display: block;
+	background-color: white;
+	height: 80%;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: relative;
+	top: 100px;
+	
+}
+#outfoto {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 50px;
+	z-index: 1;
+}
+#divfoto {
+	display: block;
+	background-color: pink;
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	
+}
+
+#monalisa {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+}
+#divmenu {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.menuitem {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	margin: 5px;
+}
+#divmedsos {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	position: absolute;
+	top: 200px;
+}
+.medsositem {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	margin: 5px;
+}
+#divdownload {
+	
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+#butdownload {
+	background-color: pink;
+	color: white;
+	font-size: 1.25rem;
+	padding: 10px;
+	border-radius: 10px;
+}
+.whatido {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin: 5px;
+}
+#aboutme {
+	background-color: pink;
+	margin: 20px;
+	padding: 10px;
+}
+.divclear {
+	clear: both;	
+}
+
